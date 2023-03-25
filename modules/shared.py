@@ -27,8 +27,8 @@ settings = {
     'max_new_tokens': 200,
     'max_new_tokens_min': 1,
     'max_new_tokens_max': 2000,
-    'name1': 'Person 1',
-    'name2': 'Person 2',
+    'name1': 'Bo',
+    'name2': 'An AI Bot',
     'context': 'This is a conversation between two people.',
     'stop_at_newline': False,
     'chat_prompt_size': 2048,
@@ -56,7 +56,7 @@ settings = {
     },
     'lora_prompts': {
         'default': 'Common sense questions and answers\n\nQuestion: \nFactual answer:',
-        '(alpaca-lora-7b|alpaca-lora-13b|alpaca-lora-30b)': "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n### Instruction:\nWrite a poem about the transformers Python library. \nMention the word \"large language models\" in that poem.\n### Response:\n"
+        '(alpaca-lora-7b|alpaca-lora-13b|alpaca-lora-30b|alpaca13B-lora)': "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n### Instruction:\nWrite a poem about the transformers Python library. \nMention the word \"large language models\" in that poem.\n### Response:\n"
     }
 }
 
