@@ -38,7 +38,7 @@ params = {
 # Input prompt
 prompt = "What I would like to say is the following: "
 
-response = requests.post(f"http://{server}:7860/run/textgen", json={
+response = requests.post(f"http://{server}:7860/api/textgen", json={
     "data": [
         prompt,
         params['max_new_tokens'],
